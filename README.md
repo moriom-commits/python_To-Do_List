@@ -1,52 +1,54 @@
-# Python To-Do List App
+# Python To-Do List
 
-A simple command-line To-Do List application built with Python. It helps users manage daily tasks directly from the terminal.
+A simple task management application built with Python and converted into a responsive web application using HTML, CSS, and JavaScript.
+
+🌐 **[Try the Live To-Do List](https://moriom-commits.github.io/python_To-Do_List/)**
 
 ## Features
 
 - Add new tasks
-- View all tasks
 - Mark tasks as completed
-- Mark completed tasks as pending
-- Delete tasks with confirmation
-- Automatically save tasks using JSON
-- Load saved tasks when the application starts
-- Handle invalid user input
-
-## Requirements
-
-- Python 3.x
-
-No external libraries are required.
-
-## How to Run
-
-1. Clone or download this repository.
-2. Open the project folder in your terminal.
-3. Run:
-
-```bash
-python3 main.py
-```
+- Delete tasks
+- Automatically count remaining and completed tasks
+- Save tasks using browser Local Storage
+- Tasks remain saved after refreshing the page
+- Responsive design for mobile and desktop
 
 ## Technologies Used
 
 - Python
-- JSON
-- File Handling
-- Functions
-- Exception Handling
+- HTML
+- CSS
+- JavaScript
+- Local Storage
+- Git & GitHub
+- GitHub Pages
 
 ## Project Structure
 
 ```text
-todo-list-app/
+python_To-Do_List/
 │
-├── main.py
-├── tasks.json
+├── index.html
+├── style.css
+├── script.js
 └── README.md
 ```
 
-## Author
+## How to Use
 
-Created as a beginner Python project to practice programming fundamentals.
+1. Open the live application.
+2. Enter a task in the input box.
+3. Click Add.
+4. Click a task to mark it as completed.
+5. Click Delete to remove a task.
+
+## Developer
+
+**Moriom**
+
+GitHub: [@moriom-commits](https://github.com/moriom-commits)
+
+---
+
+*Built as a beginner programming project to explore Python and web development.*
